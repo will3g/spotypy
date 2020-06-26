@@ -1,5 +1,10 @@
 from django.db import models
 
+#   python manage.py flush
+#   python manage.py makemigrations
+#   python manage.py migrate
+#   python manage.py createsuperuser
+
 class Music(models.Model):
 
     class Meta:
